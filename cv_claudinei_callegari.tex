@@ -1,221 +1,98 @@
-\documentclass[a4paper]{article}
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
 
-\usepackage[latin1]{inputenc}
-\usepackage[brazilian]{babel}
-\usepackage[T1]{fontenc}
-\usepackage{hyperref}
+\documentclass[margin]{res}
+\usepackage [brazil]{babel}     % nomes e hifenaÃ§Ã£ em portuguÃªs
+ 
+\usepackage{t1enc}              % Permite digitar os acentos de forma normal
+\usepackage[utf8]{inputenc} 
 
-\usepackage{tabularx}
+\topmargin=-0.5in  % start text higher on the page
+\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+\begin{document}  
+\name{\textit{Claudinei Callegari}}
 
-\usepackage{t1enc}
-\usepackage{ae}
-\usepackage{CV}
-\usepackage[pdftex]{geometry}
-\usepackage{multirow}
+\address{Brazil, BR \\ cadicallegari@gmail.com \\ Phone: +55 (48) 9826 4067}
+                           
+                        
+\begin{resume}                        
+ 
+\section{Summary}       Bachelor in computer with background in software development. Full stack developer, working with
+                        several tecnologies, such as C, Python, Ruby, and Lua. Expertise in Linux and Windows platform.
+                        Great inter-personal relationship, team player and can-do attitude. Looking for new opportunities
+                        and big challenges.                        
+ 
+\section{Education}	Universidade Estadual do Oeste do Parana, BSc in Computer Science, December 2011.
+  
+\section{Experience}
 
-\def\name{Claudinei Francisco Callegari}
-\def\titulo{Curriculum Vitae}
-\def\cidade{Florianópolis}
+\vspace{-0.1in}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{DBA}    \>\>\textbf{May 2013 - Present}\\
+    \textit{Software Engineer - Full Stack}\\        
+    \textbf{Main Technologies}: Linux, Git, Python, Ruby, JavaScript, Web, Java, Android;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    Team player of Parking Meter System project, responsbile for the web component where the backend is developed in Ruby
+    and frontend CSS, JavaScript and HTML. Android application development. Deployment of Git versioning and continuous 
+    integration servers
+        
+\vspace{-0.1in}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Digitro}    \>\>\textbf{Sep 2012 - May 2013}\\
+    \textit{Software Engineer}\\        
+    \textbf{Main Technologies}: Linux, Windows, C, SDL;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    Development and maintenance of C applications using Specification and Description Language (SDL).
+    
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
+    \textbf{Nexxera}    \>\>\textbf{Jul 2012 - Sep 2012}\\
+    \textit{Software Engineer}\\   
+    \textbf{Main Technologies}: Linux and Python;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+    Development using Python to handle, convert and store files data. Convert files "layouts" using a closed tool;
+   
+   %\vspace{20mm}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.5in}\= \kill % set up two tab positions
+    \textbf{Ahgora}    \>\>\textbf{Jan 2012 - Jul 2012}\\
+    \textit{Jr Software Engineer}\\   
+    \textbf{Main Technologies}: C, Lua, Linux and Java(Android);
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+       Embedded systems development using C and Lua. Android development.
+       
+   %\vspace{20mm}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{1.5in}\= \kill % set up two tab positions
+    \textbf{ITAI}    \>\>\textbf{May 2009 - Nov 2011}\\
+    \textit{Trainee}\\   
+    \textbf{Main Technologies}: Linux, C/C++ and Java;
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    \vspace{2mm}
+       Development with languages C, C++ e Java. Comunication between C and Java using SUN-RPC, JSON. Used Valgrind, Libxml2, Glib
 
-\hypersetup{
-	colorlinks = true,
-	urlcolor = black,
-	pdfauthor = {\name},
-	pdfkeywords = {linux, unix, android, java, c, c++, Lua, python, php},
-	pdftitle = {\name: \titulo},
-	pdfsubject = {\titulo},
-	pdfpagemode = UseNone
-}
+\section{Skills Base}  \textit{Operating System}:  Linux (Debian, Ubuntu, CentOS), Windows NT/XP/Vista/7 and OSX;
 
-% Customize page headers
-\pagestyle{myheadings}
-\markright{\name}
-\thispagestyle{empty}
+			\textit{Networkings}: TCP/IP protocol suite;
+  
+			\textit{Progamming Languages}: C, Pascal, Python, Ruby, JavaScript, plus some experience with Lua and Java;
+  
+			\textit{Virtualization}: VirtualBox, VMWare, plus some experience with Xen;
 
-\begin{document}
-
-%Ueberschrift
-\begin{center}
-
-	\huge{\textsc{\titulo}}
-	\vspace{\baselineskip}
-
-	\Large{\textsc{\name}}
-
-\end{center}
-
-\vspace{1.5\baselineskip}
-
-\section{Endereço}
-
-	\begin{flushleft}
-
-		Rua Desembargador Gil Costa, 361 - Apto 301, Bloco B - Florianópolis - SC \\
-		Celular: (48) 9954-4612 \\
-		Telefone: (48) 3204-4874 \\
-		E-mail: cadicallegari@gmail.com, cadi@gnoia.org \\
-
-	\end{flushleft}
-
-
-\section{Dados Pessoais}
-
-	\begin{flushleft}
-
-		Sexo: Masculino \\
-		Data de Nascimento: 23 de Junho, 1987 \\
-		Local Nascimento: Itapejara D` Oeste - PR \\
-		Nacionalidade: Brasileiro \\
-		Estado Civil: Solteiro \\
-
-	\end{flushleft}
-
-
-\section{Educação}
-\begin{CV}
-
-\item[2007--2011]
-	Bacharelado em Ciência da Computação
-	pela Universidade Estadual do Oeste do Paraná - Unioeste,
-	Campus Foz do Iguaçu - PR
-                       
-\end{CV}
-
-%\section{Cursos}
-%\begin{CV}
-
-%\item[2009] Shell Script AvanÃ§ado com Julio Cezar Neves
-
-%\end{CV}
-
-%\section{CertificaÃ§Ã£o}
-%\begin{CV}
-
-%\item[2009] Linux Professional Institute NÃ­vel I
-%\item[2009] Novell Certified Linux Administrator
-
-%\end{CV}
-
-%
-%\section{Eventos e Congressos}
-%\begin{itemize}
-%	\item Eventos que assistiu
-%\end{itemize}
-
-\section{Experiência Profissional}
-
-\begin{CV}
-
-\item[05/2013 -- Atual]
-	\textbf{Empresa:} DBA Tecnologia - Florianópolis (SC) \\
-	\textbf{Cargo:} Analista de sistemas \\
-	\textbf{Atividades:} %Integração Hardware/Software
-		\begin{itemize}
-
-			\item Análise e desenvolvimento de aplicações web e integração de ferramentas de automação utilizando o Ruby on Rails;
-			\item Análise e desenvolvimento de aplicações para a plataforma Android.
-			
-		\end{itemize}
-
-\item[10/2012 -- 05/2013]
-	\textbf{Empresa:} Dígitro Tecnologia - Florianópolis (SC) \\
-	\textbf{Cargo:} Desenvolvedor \\
-	\textbf{Atividades:} %Integração Hardware/Software
-		\begin{itemize}
-
-			\item Desenvolvimento e manutenção de aplicações utilizando a linguagem C com auxilo da ferramenta \textit{Specification and Description Language} (SDL).
-			
-		\end{itemize}
+			\textit{Languages}: Fluent in Portuguese, Intermediate in English and Spanish;
+ 
+\section{More Info}
+    \begin{itemize}
+        \item \textbf{Linkedin}: https://www.linkedin.com/pub/claudinei-callegari/35/b71/a5b/en
+         \item \textbf{Github}: https://github.com/cadicallegari
+    \end{itemize}
 
 
-\item[07/2012 -- 10/2012]
-	\textbf{Empresa:} Nexxera - Florianópolis (SC) \\
-	\textbf{Cargo:} Desenvolvedor de tradução II \\
-	\textbf{Atividades:} %Integração Hardware/Software
-		\begin{itemize}
-
-			\item Desenvolvimento de aplicação em Python para manipular, converter e armazenar dados de arquivos;
-			\item Desenvolvimento de aplicações para conversão de arquivos utilizando ferramenta proprietária.
-			
-		\end{itemize}
-
-
-\item[01/2012 -- 06/2012]
-	\textbf{Empresa:} Ahgora Sistemas - Florianópolis (SC) \\
-	\textbf{Cargo:} Desenvolvedor de software júnior \\
-	\textbf{Atividades:} %Integração Hardware/Software
-		\begin{itemize}
-
-			\item Desenvolvimento de aplicação para linux embarcado utilizando as linguagens C e Lua;
-			\item Desenvolvimento de aplicativos para linux na linguagem C;
-			\item Desenvolvimento de aplicações para a plataforma Android. 
-
-		\end{itemize}
-
-
-% \item[12/2010--11/2011]
-% 	\textbf{Empresa:} Instituto de Tecnologia Aplicada e Inovação (ITAI) - Foz do Iguaçu (PR) \\
-% 	\textbf{Cargo:} Estagiário \\
-% 	\textbf{Atividades:} %Desenvolvimento de \textit{Software} para Plataforma Linux
-% 		\begin{itemize}
-
-% 			\item Desenvolvimento de soluções utilizando as linguagens C, C++ e Java;
-% 			\item Desenvolvimento de comunicação entre aplicações C e Java utilizando SUN-RPC;
-% 			\item Desenvolvimento da comunicação via \textit{socket} entre aplicações C e em Java, trocando informações no formato JSON;
-% 			\item Manutenção de aplicações \textit{web} diversas;
-% 			\item Utilização da ferramenta Valgrind para detecção e correção de \textit{memory leaks};
-% 			\item Estudo e implantação da ferramenta de monitoramento de ativos de rede Zabbix.
-
-% 		\end{itemize}
-
-% \item[05/2009--02/2010]
-% 	\textbf{Empresa:} Instituto de Tecnologia Aplicada e Inovação (ITAI) - Foz do Iguaçu (PR) \\
-% 	\textbf{Cargo:} Estagiário \\
-% 	\textbf{Atividades:} 
-% 		\begin{itemize}
-
-% 			\item Desenvolvimento de soluções utilizando as linguagens C, C++ e Java;
-% 			\item Desenvolvimento do modulo de configuração de aplicações C e C++ utilizando a biblioteca Libxml2;			
-% 			\item Estudo e desenvolvimento de protótipos de comunicação entre aplicações desenvolvidas em C, C++ e Java utilizando a biblioteca GLib;
-% 			\item Desenvolvimento de material didático para introdução a utilização da biblioteca GLib.
-% 		\end{itemize}
-
-
-
-% \item[02/2005--11/2005]
-% 	\textbf{Empresa:} Microrio Informática - Rio Bonito do Iguaçu (PR) \\
-% 	\textbf{Cargo:} Técnico em manutenção \\
-% 	\textbf{Atividades:}
-% 		\begin{itemize}
-
-% 			\item Instalação, configuração e manutenção de computadores e redes;
-% 			\item Instalação e configuração da infraestrutura para acesso a internet via rádio;
-% 			\item Atendimento ao público para venda de artigos de informática;
-		
-% 		\end{itemize}
-
-\end{CV}
-
-
-\section{Conhecimentos adicionais:}
-	\begin{itemize}
-		
-		\item Conhecimento intermediário nos sistemas operacionais GNU/Linux e Windows;
-		\item Domínio das linguagens de programação C, C++, Java, Python, Ruby, PHP, Lua e Pascal;
-		\item Conhecimento intermediário no pacote Microsoft Office e LibreOffice;
-		\item Conhecimento básico nos banco de dados PostgreSQL, MySql, DB4O, Sqlite;
-		\item Conhecimento das ferramentas de controle de versão Git e Subversion;
-		\item Domínio das ferramentas Eclipse, Netbeans, Astah, DBDesigner;
-		\item Conhecimento intermediário nas ferramentas Inkscape, Gimp, Photoshop.
-
-	\end{itemize}
-
-\section{Idiomas: (ler, falar, escrever)}
-	\begin{itemize}
-
-		\item Inglês: Intermediário, Básico, Básico;
-		\item Espanhol: Intermediário, Básico, Básico;
-
-	\end{itemize}
-
+\end{resume} 
 \end{document}
