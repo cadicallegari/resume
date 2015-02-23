@@ -31,7 +31,7 @@ Android application development;
 Deployment of Git versioning and continuous integration servers
 
 
-### Digitro - NDS
+### Dígitro
 
 Development and maintenance of C applications using Specification and Description Language (SDL).
 
