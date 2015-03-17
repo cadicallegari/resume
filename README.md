@@ -24,26 +24,37 @@ Universidade Estadual do Oeste do Parana (UNIOESTE), BS in Computer Science, Dec
 
 ### DBA Technology
 
-Full stack developer;
-Ruby and Python backend development;
-HTML, CSS and JS front-end development;
-Android application development;
-Deployment of Git versioning and continuous integration servers
+Requirements engineering, UML modelage and development in Ruby on Rails of a 
+system to clients contact the company about issues with equipments and products 
+supplied by it.
+
+Active participation in all phases of public paid parking solution.
+Design database model and implement REST APIs to comunicate with the solution's devices
+like tablets and parkingmeters and interface using Ruby and Grape framework.
+
+Participation in Android application development that consums API, mainly in API communication.
+
+Desing and development Python module that comunicate with the parkingmeter embeed application
+using D-Bus and consums API, storing local data with MongoDB.
+
+Managing little team and participating in frontend development, that consums API and was
+developed using AngularJS.
 
 
 ### Dígitro
 
-Development and maintenance of C applications using Specification and Description Language (SDL).
+Implement new features and maintenance of callcenter solution, acting mainly
+in backup area, using language C with SDL (Specification and Description Language).
 
 ### Nexxera
 
-Development using Python to handle, convert and store files data;
-Convert files "layouts" using a closed tool;
+Write scripts using Python, Java and closed tool to convert files used to share informations
+between companies and banks, and vice versa.
 
 ### Ahgora
 
-Embedded systems development using C and Lua;
-Android development.
+Implementation of comunication protocol with language C for ARM and 8051 processors.
+Development Android application to read RFIDs tags and comunicate to a REST service.
 
 ## Skills
 
