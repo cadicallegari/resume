@@ -68,4 +68,4 @@ Development Android application to read RFIDs tags and comunicate to a REST serv
  * Email: cadicallegari@gmail.com
  * Twitter: cadicallegari
  * Github: github.com/cadicallegari
- * Linkedin: https://www.linkedin.com/pub/claudinei-callegari/35/b71/a5b
+ * Linkedin: https://www.linkedin.com/in/cadicallegari
