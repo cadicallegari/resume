@@ -1,67 +1,17 @@
 Claudinei Francisco Callegari
 ======================
 
-I'm a Brazilian computer cientist since 2011. In the past few years
-working as a software engineer in different companies on numerous
-projects envolving languages such as C/C++, Python, Java and Ruby and
-Linux, OSX and Windows platform.
+I’m an enthusiastic brazilian software engineer graduated at Universidade Estadual do Oeste do Paraná. Currently I work at Neoway Business Solutions in Florianopolis, south Brazil. Most of my projects now are based on python programming language for scrapy web data and characters recognition. At Neoway I have been developing on Linux environment and using Docker as a tool of deployment. I also had my first contact with Go where I started contributing in small open source projects.
 
-Passionate software developer, good team-player, can-do attitude,
-always trying to think out of the box. I would like to work in a
-challenging technical and agile development environment.
+I have dedicated some years of my life working as Full Stack Developer in a startup called DBA. As a result, I participated in all parts of process, from directly contacting customers to understand their requirements, to web development using Ruby on Rails framework, modeling the database, to testing the application. I was also responsible for the frontend development, so hands on JavaScript (AngularJS) and HTML.
 
-I'm interested in a full-stack web developer position, rather the 
-Ruby on Rails or Python/Django web framework. I hold a high 
-standard of quality in everything that I do, and
-believe agile methodologies and test-driven development lead 
-to better applications.
+After my graduation I worked in different companies with many technologies. I developed in java for Android applications. I was part of a team to develop a protocol of communication in C language for ARM and 8051 processors. I wrote software in Java, Python and a closed tool to convert files used to share informations between companies and banks.
 
-## Education
-
-Universidade Estadual do Oeste do Parana (UNIOESTE), BS in Computer Science, December 2011.
-
-## Experience
-
-### DBA Technology
-
-Requirements engineering, UML modelage and development in Ruby on Rails of a 
-system to clients contact the company about issues with equipments and products 
-supplied by it.
-
-Active participation in all phases of public paid parking solution.
-Design database model and implement REST APIs to comunicate with the solution's devices
-like tablets and parkingmeters and interface using Ruby and Grape framework.
-
-Participation in Android application development that consums API, mainly in API communication.
-
-Desing and development Python module that comunicate with the parkingmeter embeed application
-using D-Bus and consums API, storing local data with MongoDB.
-
-Managing little team and participating in frontend development, that consums API and was
-developed using AngularJS.
+Apart from my technical skills, I'm a committed professional, with can-do attitude, extremely motivated and someone who enjoys to be part of a team.
 
 
-### Dígitro
-
-Implement new features and maintenance of callcenter solution, acting mainly
-in backup area, using language C with SDL (Specification and Description Language).
-
-### Nexxera
-
-Write scripts using Python, Java and closed tool to convert files used to share informations
-between companies and banks, and vice versa.
-
-### Ahgora
-
-Implementation of comunication protocol with language C for ARM and 8051 processors.
-Development Android application to read RFIDs tags and comunicate to a REST service.
-
-## Skills
-
-  * Linux
-  * GIT/SVN
-  * Ruby
-  * Python
+You could find more details on a pdf in [english](cv_claudinei_callegari_en.pdf)
+and in [portugues](cv_claudinei_callegari.pdf)
 
 ## Contact
 
