@@ -10,8 +10,8 @@ After my graduation I worked in different companies with many technologies. I de
 Apart from my technical skills, I'm a committed professional, with can-do attitude, extremely motivated and someone who enjoys to be part of a team.
 
 
-You could find more details on a pdf in [english](cv_claudinei_callegari_en.pdf)
-and in [portugues](cv_claudinei_callegari.pdf)
+You could find more details on a pdf in [English](cv_claudinei_callegari_en.pdf)
+and in [Português](cv_claudinei_callegari.pdf)
 
 ## Contact
 
