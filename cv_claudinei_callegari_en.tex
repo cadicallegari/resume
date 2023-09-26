@@ -1,107 +1,132 @@
-% LaTeX file for resume
-% This file uses the resume document class (res.cls)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[margin]{res}
-\usepackage [brazil]{babel}     % nomes e hifenaçã em português
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
 
-\usepackage{t1enc}              % Permite digitar os acentos de forma normal
-\usepackage[utf8]{inputenc}
+\documentclass[
+	a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
 
-\topmargin=-0.5in  % start text higher on the page
-\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+\usepackage{ebgaramond} % Use the EB Garamond font
+
+%------------------------------------------------
+
+\name{Claudinei Callegari} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{Wuppertal, Germany} % Main address
+
+\address{cadicallegari@gmail.com \\ +49 0152 3663 8091} % Contact information
+
+\address{\textbf{Github}: github.com/cadicallegari \\ \textbf{Linkedin}: linkedin.com/in/cadicallegari} % Contact information
+
+%----------------------------------------------------------------------------------------
+
 \begin{document}
-\name{\textit{Claudinei Callegari}}
-
-\address{Wuppertal, Germany \\ cadicallegari@gmail.com \\ Phone: +49 0152 3663 8091}
 
 
-\begin{resume}
+%----------------------------------------------------------------------------------------
+%	INTRO SECTION
+%----------------------------------------------------------------------------------------
 
-\section{Summary}       I’m a Software Engineer working with microservices and Go since 2016.
+\begin{rSection}{}
+
+I’m a Software Engineer working with microservices and Go since 2016.
 
 I'm a big fan of automated tests and fast feedback loop, and I believe that collaborative and relaxed work environments walk together with productivity and creativity.
-
 
 
 Apart from Go, I have worked with some other languages like C, Python and Ruby.
 I'm also interested in the functional paradigm and I have played around using Scala and Clojure.
 
 
+\end{rSection}
 
-\section{Education} Universidade Estadual do Oeste do Parana, BSc in Computer Science, December 2011.
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-\section{Experience}
+\begin{rSection}{Education}
 
-\vspace{-0.1in}
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
-    \textbf{Schwarz Media Plataform}    \>\>\textbf{Apr 2022 - present}\\
-    \textit{Senior Software Engineer}\\
-    \textbf{Main Technologies}: Go, Kubernetes, Docker, GCP, BigTable, Airflow;
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    \vspace{2mm}
+	\textbf{Universidade Estadual do Oeste do Paraná, Brazil} \hfill \textit{December 2011} \\
+	B.S. in Computer Science
 
-As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
-
-Among other interesting challenges, scale our services to support a high amount of requests per second, with spikes that can multiply the number of requests by 7 within seconds is one of them.
+\end{rSection}
 
 
-\vspace{-0.1in}
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
-    \textbf{Onefootball}    \>\>\textbf{Feb 2021 - Mar 2022}\\
-    \textit{Software Engineer}\\
-    \textbf{Main Technologies}: Go, Kubernetes, AWS;
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    \vspace{2mm}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
 
-As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{Schwarz Media Plataform}{April 2022 - Present}{Senior Software Engineer}{Germany}
+		% \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
+		% \item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
+		\item As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
 
 Among other interesting challenges, scale our services to support a high amount of requests per second, with spikes that can multiply the number of requests by 7 within seconds is one of them.
 
+	\end{rSubsection}
 
-\vspace{-0.1in}
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
-    \textbf{FromAtoB}    \>\>\textbf{May 2019 - Feb 2021}\\
-    \textit{Software Engineer}\\
-    \textbf{Main Technologies}: Go, Python, Docker, Kubernetes, Dataflow, Bigquery, GCP;
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    \vspace{2mm}
+%------------------------------------------------
 
-Some of the data team responsibilities are data collection, transformation, storage, security, consumption in a variety of ways and monitoring.
+	\begin{rSubsection}{Onefootball}{February 2021 - March 2022}{Senior Software Engineer}{Berlin, Germany}
+		\item As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
+
+Among other interesting challenges, scale our services to support a high amount of requests per second, with spikes that can multiply the number of requests by 7 within seconds is one of them.
+
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{FromAtoB}{May 2019 - February 2021}{Senior Software Engineer}{Berlin, Germany}
+		\item Some of the data team responsibilities are data collection, transformation, storage, security, consumption in a variety of ways and monitoring.
 
 To achieve that, the first step we had to take was extracting the data from the services, which were written in Go and Ruby, then publish to the pipeline.
 
 Our pipelines are composed of cloud functions written in Go and dataflow jobs.
 We also have some services running inside Kubernetes cluster and Airflow scheduling Spark jobs and a bunch of dockerized jobs, most of them written in Python.
 
+	\end{rSubsection}
 
-\vspace{-0.1in}
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
-    \textbf{Neoway Business Solutions}    \>\>\textbf{May 2016 - Mar 2019}\\
-    \textit{Software Developer}\\
-    \textbf{Main Technologies}: Go, Python, Docker, Kubernetes;
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    \vspace{2mm}
+%------------------------------------------------
 
-As a member of the datasource team, I worked mainly with Python language to scrap data from the Internet. We created a framework to help us develop bots in a more quickly and reliable way.
+	\begin{rSubsection}{Neoway Business Solutions}{May 2016 - March 2019}{Software Developer}{Florianópolis, Brazil}
+		\item As a member of the datasource team, I worked mainly with Python language to scrap data from the Internet. We created a framework to help us develop bots in a more quickly and reliable way.
 To support the tasks related to scraping data, we also had services written in Go.
 
 
 As a member of the data analytics team, I worked with the same idea of creating a framework for the data scientists to develop their models in a more quickly and reliable way, having as the final artifact a variety of options like a python package or a spark job.
 
 
-\vspace{-0.1in}
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{1.7in}\= \kill % set up two tab positions
-    \textbf{DBA}    \>\>\textbf{May 2013 - May 2016}\\
-    \textit{Software Engineer - Full Stack}\\
-    \textbf{Main Technologies}: Linux, Python, Ruby, JavaScript, Java, Android;
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    \vspace{2mm}
-As a team-member at DBA startup working part of the Parking Meter System project. I'm involved in all parts of the project, this means understand all clients requirements, web development using Ruby on Rails framework, modeling the database and testing the application. I'm also responsible for the frontend development, so hands on JavaScript (AngularJS) and HTML.
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{DBA Technology}{May 2013 - May 2016}{Software Developer}{Florianópolis, Brazil}
+		\item As a team-member at DBA startup working part of the Parking Meter System project. I'm involved in all parts of the project, this means understand all clients requirements, web development using Ruby on Rails framework, modeling the database and testing the application. I'm also responsible for the frontend development, so hands on JavaScript (AngularJS) and HTML.
 
 I also developed REST APIs to improve the communication with the devices, such as tablets and parking meters. The REST API was developed using Ruby/Grape framework. I've contributed to development of Android applications.
 
@@ -109,15 +134,39 @@ That Android applications were developed using some libs like RxAndroid, Retrofi
 
 Although I am a software engineer some times it is necessary working as sysadmins doing tasks like Linux and network administration, web servers management (Apache and nginx), log analyse, and so on.
 
-Main tecnologies: Ruby, Rails framework, Android, Postgresql, Grape framework, Linux, Python, DBus, Amazon AWS, Dokku, REST.
+
+	\end{rSubsection}
+
+\end{rSection}
 
 
-\section{More Info}
-    \begin{itemize}
-        \item \textbf{Linkedin}: https://br.linkedin.com/in/cadicallegari
-         \item \textbf{Github}: https://github.com/cadicallegari
-    \end{itemize}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
 
+\begin{rSection}{Technical Strengths}
 
-\end{resume}
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		% Computer Languages & Go, Python, Ruby, C \\
+		& Go, Python, Ruby, C \\
+		& Docker, Kubernetes, Microservices \\
+		& GRPC, REST \\
+		& AWS, GCP, BigTable, Bigquery, Dataflow \\
+		& Linux, Postgres, MySQL, Airflow, Android
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+	%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
 \end{document}
