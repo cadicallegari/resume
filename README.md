@@ -1,7 +1,7 @@
 Claudinei Francisco Callegari
 ======================
 
-I’m an enthusiastic brazilian software engineer graduated at Universidade Estadual do Oeste do Paraná. Currently I work at Neoway Business Solutions in Florianopolis, south Brazil. Most of my projects now are based on python programming language for scrapy web data and characters recognition. At Neoway I have been developing on Linux environment and using Docker as a tool of deployment. I also had my first contact with Go where I started contributing in small open source projects.
+I’m an brazilian software engineer graduated at Universidade Estadual do Oeste do Paraná. Currently I work at Neoway Business Solutions in Florianopolis, south Brazil. Most of my projects now are based on python programming language for scrapy web data and characters recognition. At Neoway I have been developing on Linux environment and using Docker as a tool of deployment. I also had my first contact with Go where I started contributing in small open source projects.
 
 I have dedicated some years of my life working as Full Stack Developer in a startup called DBA. As a result, I participated in all parts of process, from directly contacting customers to understand their requirements, to web development using Ruby on Rails framework, modeling the database, to testing the application. I was also responsible for the frontend development, so hands on JavaScript (AngularJS) and HTML.
 
