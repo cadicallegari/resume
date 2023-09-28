@@ -101,8 +101,7 @@ I'm also interested in the functional paradigm, and I have played around using S
 		\end{itemize}
 
 		\textit{Main technologies}
-			Go, Bigtable, Bigquery, Airflow, Kubernetes, Docker
-
+			Go, Bigtable, Bigquery, Airflow, Kubernetes, Docker, GCP, Postgres.
 
 	\end{rSubsection}
 
@@ -110,9 +109,18 @@ I'm also interested in the functional paradigm, and I have played around using S
 %------------------------------------------------
 
 	\begin{rSubsection}{Onefootball}{February 2021 - March 2022}{Senior Software Engineer}{Berlin, Germany}
-		\item As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
+		\item[]
+		As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
+		Among other interesting challenges, scaling our services to support a high amount of requests per second, with spikes that can multiply the number of requests in an order of magnitude within a few seconds.
 
-Among other interesting challenges, scale our services to support a high amount of requests per second, with spikes that can multiply the number of requests by 7 within seconds is one of them.
+		\textit{Highlights}
+		\begin{itemize}
+			\item Responsible for the BFF and event architecture initiatives, which were adopted successfully by other teams later.
+			\item Fine tune relational database that improved performance up to 70%.
+		\end{itemize}
+
+		\textit{Main technologies}
+			Go, Kubernetes, Docker, AWS, Elastic Search, Nats, MySql.
 
 	\end{rSubsection}
 
@@ -120,12 +128,22 @@ Among other interesting challenges, scale our services to support a high amount 
 %------------------------------------------------
 
 	\begin{rSubsection}{FromAtoB}{May 2019 - February 2021}{Senior Software Engineer}{Berlin, Germany}
-		\item Some of the data team responsibilities are data collection, transformation, storage, security, consumption in a variety of ways and monitoring.
+		\item[]
+		As a member of the data platform team, some of my responsibilities were to externalize, process data from different kinds of services written in Go and Ruby,
+		and store it in our dataware house and datalake.
+		Also monitoring to make sure that the process still working and generating quality data.
+		With that, we enabled the data science teams to work with the data to improve our product as well as create new features like price calendars, for example.
 
-To achieve that, the first step we had to take was extracting the data from the services, which were written in Go and Ruby, then publish to the pipeline.
 
-Our pipelines are composed of cloud functions written in Go and dataflow jobs.
-We also have some services running inside Kubernetes cluster and Airflow scheduling Spark jobs and a bunch of dockerized jobs, most of them written in Python.
+		\textit{Highlights}
+		\begin{itemize}
+			\item Design and implement the whole data platform..
+			\item Create a POC of a price calendar using Bigtable.
+		\end{itemize}
+
+		\textit{Main technologies}
+			Go, Bigtable, Bigquery, Dataflow, Cloud Functions, Airflow, Kubernetes, Docker, GCP.
+
 
 	\end{rSubsection}
 
