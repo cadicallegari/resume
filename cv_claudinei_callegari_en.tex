@@ -73,7 +73,7 @@ I'm also interested in the functional paradigm, and I have played around using S
 
 \begin{rSection}{Education}
 
-	\textbf{Universidade Estadual do Oeste do Paraná, Brazil} \hfill \textit{December 2011} \\
+	\textbf{Universidade Estadual do Oeste do Paraná, Brazil} \hfill \textbf{December 2011} \\
 	B.S. in Computer Science
 
 \end{rSection}
@@ -90,17 +90,17 @@ I'm also interested in the functional paradigm, and I have played around using S
 		As a member of the ad delivery team, some of my responsibilities were to keep our service within our SLOs, keep the pipeline that prepared the ads to be delivered,
 		and onboard and share knowledge with other team members.
 
-		The team had a rotative style of dealing with new product initiatives. For every initiative, a different team member was responsible for the design and implementation of the solution,
-		writing tech concepts, or ADRs, and coordinating the work in the team as well as with other teams in the company.
+		The team had a rotative style of dealing with new product initiatives. For every initiative, a different team member was responsible for the design and implementation of the solution.
+		writing tech concepts, ADRs, and coordinating the work within the team as well as with other teams in the company.
 
-		\textit{Highlights}
+		\textbf{Highlights}
 		\begin{itemize}
 			\item Design bigtable storage to make it simpler from a developer perspective and also more performant.
 			\item Improve overall developer experience with a local environment.
 			\item Migrate a complex pipeline from kubeflow to airflow.
 		\end{itemize}
 
-		\textit{Main technologies}
+		\textbf{Main technologies}
 			Go, Bigtable, Bigquery, Airflow, Kubernetes, Docker, GCP, Postgres.
 
 	\end{rSubsection}
@@ -113,14 +113,14 @@ I'm also interested in the functional paradigm, and I have played around using S
 		As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
 		Among other interesting challenges, scaling our services to support a high amount of requests per second, with spikes that can multiply the number of requests in an order of magnitude within a few seconds.
 
-		\textit{Highlights}
+		\textbf{Highlights}
 		\begin{itemize}
 			\item Responsible for the BFF and event architecture initiatives, which were adopted successfully by other teams later.
-			\item Fine tune relational database that improved performance up to 70%.
+			\item Fine tune relational database that improved performance up to 70\%.
 		\end{itemize}
 
-		\textit{Main technologies}
-			Go, Kubernetes, Docker, AWS, Elastic Search, Nats, MySql.
+		\textbf{Main technologies}
+			Go, Kubernetes, Docker, AWS, Elastic Search, Nats, RabbitMQ, MySql.
 
 	\end{rSubsection}
 
@@ -134,15 +134,14 @@ I'm also interested in the functional paradigm, and I have played around using S
 		Also monitoring to make sure that the process still working and generating quality data.
 		With that, we enabled the data science teams to work with the data to improve our product as well as create new features like price calendars, for example.
 
-
-		\textit{Highlights}
+		\textbf{Highlights}
 		\begin{itemize}
-			\item Design and implement the whole data platform..
+			\item Design and implement the whole data platform.
 			\item Create a POC of a price calendar using Bigtable.
 		\end{itemize}
 
-		\textit{Main technologies}
-			Go, Bigtable, Bigquery, Dataflow, Cloud Functions, Airflow, Kubernetes, Docker, GCP.
+		\textbf{Main technologies}
+			Go, Bigtable, Bigquery, PubSub, Dataflow, Cloud Functions, Airflow, Kubernetes, Docker, GCP.
 
 
 	\end{rSubsection}
@@ -151,25 +150,42 @@ I'm also interested in the functional paradigm, and I have played around using S
 %------------------------------------------------
 
 	\begin{rSubsection}{Neoway Business Solutions}{May 2016 - March 2019}{Software Developer}{Florianópolis, Brazil}
-		\item As a member of the datasource team, I worked mainly with Python language to scrap data from the Internet. We created a framework to help us develop bots in a more quickly and reliable way.
-To support the tasks related to scraping data, we also had services written in Go.
+		\item[]
+		As a member of the data source, our main responsibility was to keep a fleet of more than 300 bots scraping different sites on the Internet.
+		For that, we created a framework over Scrapy to help us develop bots in a more rapid and reliable way.
+		We also had to build a variety of services in Go to support the bots with storage and proxy, for example.
 
+		Later, we applied the same framework idea to the data analytics team, which helped to develop their models in a more quickly and reliable way.
+		having as the final artifact a variety of options, like a Python package or a Spark job.
 
-As a member of the data analytics team, I worked with the same idea of creating a framework for the data scientists to develop their models in a more quickly and reliable way, having as the final artifact a variety of options like a python package or a spark job.
+		\textbf{Highlights}
+		\begin{itemize}
+			\item Promote workshops and regular 1x1 with the team.
+			\item Improve and replicate with another team the framework idea to make the development process easier.
+		\end{itemize}
 
+		\textbf{Main technologies}
+			Go, Python, RabbitMQ, Kubernetes, Docker, AWS, GCP.
 
 	\end{rSubsection}
 
 	%------------------------------------------------
 
 	\begin{rSubsection}{DBA Technology}{May 2013 - May 2016}{Software Developer}{Florianópolis, Brazil}
-		\item As a team-member at DBA startup working part of the Parking Meter System project. I'm involved in all parts of the project, this means understand all clients requirements, web development using Ruby on Rails framework, modeling the database and testing the application. I'm also responsible for the frontend development, so hands on JavaScript (AngularJS) and HTML.
+		\item[]
+		As a team member of the DBA startup, I've worked on the Parking Meter System project, where I was involved in all stages, like collecting and understanding the requirements, web development using the Ruby on Rails framework, modeling the database, and testing the application.
 
-I also developed REST APIs to improve the communication with the devices, such as tablets and parking meters. The REST API was developed using Ruby/Grape framework. I've contributed to development of Android applications.
+		Apart from the frontend, we had to communicate with other devices, such as tablets, parking meters, and a variety of sensors. That API was developed using the Ruby/Grape framework.
 
-That Android applications were developed using some libs like RxAndroid, Retrofit, SqlBrite, Butterniffe, Dagger, Espresso and Robolectric.
+		I also wrote the first version of the Android application using libraries like RxAndroid, Retrofit, SqlBrite, Butterniffe, Dagger, Espresso, and Robolectric.
 
-Although I am a software engineer some times it is necessary working as sysadmins doing tasks like Linux and network administration, web servers management (Apache and nginx), log analyse, and so on.
+		\textbf{Highlights}
+		\begin{itemize}
+			\item Start the system from scratch, being responsible for collecting requirements, implementing them, and delivering them to the users..
+		\end{itemize}
+
+		\textbf{Main technologies}
+			Ruby, Python, Android, AWS.
 
 	\end{rSubsection}
 
@@ -180,18 +196,18 @@ Although I am a software engineer some times it is necessary working as sysadmin
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}
+% \begin{rSection}{Technical Strengths}
 
-	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
-		% Computer Languages & Go, Python, Ruby, C \\
-		& Go, Python, Ruby, C \\
-		& Docker, Kubernetes, Microservices \\
-		& GRPC, REST \\
-		& AWS, GCP, BigTable, Bigquery, Dataflow \\
-		& Linux, Postgres, MySQL, Airflow, Android
-	\end{tabular}
+% 	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+% 		% Computer Languages & Go, Python, Ruby, C \\
+% 		& Go, Python, Ruby, C \\
+% 		& Docker, Kubernetes, Microservices \\
+% 		& GRPC, REST \\
+% 		& AWS, GCP, BigTable, Bigquery, Dataflow \\
+% 		& Linux, Postgres, MySQL, Airflow, Android
+% 	\end{tabular}
 
-\end{rSection}
+% \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EXAMPLE SECTION
