@@ -17,16 +17,22 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\title{Callegari Resume}
+\author{Claudinei Callegari}
+
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
 \documentclass[
 	a4paper, % Uncomment for A4 paper size (default is US letter)
-	11pt, % Default font size, can use 10pt, 11pt or 12pt
+	10pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
-% \usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{fontenc}
+
+\setlength{\textheight}{10in} % increase text height to fit resume on 1 page
+
 
 %------------------------------------------------
 
@@ -37,7 +43,7 @@
 
 \address{Wuppertal, Germany} % Main address
 
-\address{cadicallegari@gmail.com \\ +49 0152 3663 8091} % Contact information
+\address{cadicallegari@gmail.com \\ +49 152 3663 8091} % Contact information
 
 \address{\textbf{Github}: github.com/cadicallegari \\ \textbf{Linkedin}: linkedin.com/in/cadicallegari} % Contact information
 
@@ -50,16 +56,14 @@
 %	INTRO SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{}
+\begin{rSection}{Summary}
 
-I’m a Software Engineer working with microservices and Go since 2016.
+I've been a software engineer solving product, scalability, and developer problems with Go and microservices since 2016.
 
-I'm a big fan of automated tests and fast feedback loop, and I believe that collaborative and relaxed work environments walk together with productivity and creativity.
+I'm a big fan of automated tests and fast feedback loops, and I believe that collaborative and relaxed work environments walk together with productivity and creativity.
 
-
-Apart from Go, I have worked with some other languages like C, Python and Ruby.
-I'm also interested in the functional paradigm and I have played around using Scala and Clojure.
-
+Apart from Go, I have worked with some other languages like C, Python, and Ruby.
+I'm also interested in the functional paradigm, and I have played around using Scala and Clojure.
 
 \end{rSection}
 
@@ -82,14 +86,27 @@ I'm also interested in the functional paradigm and I have played around using Sc
 \begin{rSection}{Experience}
 
 	\begin{rSubsection}{Schwarz Media Plataform}{April 2022 - Present}{Senior Software Engineer}{Germany}
-		% \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-		% \item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-		\item As a member of the news team, I share the responsibility to keep the data provided for our users updated and tailored for their interests.
+		\item[]
+		As a member of the ad delivery team, some of my responsibilities were to keep our service within our SLOs, keep the pipeline that prepared the ads to be delivered,
+		and onboard and share knowledge with other team members.
 
-Among other interesting challenges, scale our services to support a high amount of requests per second, with spikes that can multiply the number of requests by 7 within seconds is one of them.
+		The team had a rotative style of dealing with new product initiatives. For every initiative, a different team member was responsible for the design and implementation of the solution,
+		writing tech concepts, or ADRs, and coordinating the work in the team as well as with other teams in the company.
+
+		\textit{Highlights}
+		\begin{itemize}
+			\item Design bigtable storage to make it simpler from a developer perspective and also more performant.
+			\item Improve overall developer experience with a local environment.
+			\item Migrate a complex pipeline from kubeflow to airflow.
+		\end{itemize}
+
+		\textit{Main technologies}
+			Go, Bigtable, Bigquery, Airflow, Kubernetes, Docker
+
 
 	\end{rSubsection}
 
+	\vspace{1mm}
 %------------------------------------------------
 
 	\begin{rSubsection}{Onefootball}{February 2021 - March 2022}{Senior Software Engineer}{Berlin, Germany}
@@ -99,6 +116,7 @@ Among other interesting challenges, scale our services to support a high amount 
 
 	\end{rSubsection}
 
+	\vspace{1mm}
 %------------------------------------------------
 
 	\begin{rSubsection}{FromAtoB}{May 2019 - February 2021}{Senior Software Engineer}{Berlin, Germany}
@@ -111,6 +129,7 @@ We also have some services running inside Kubernetes cluster and Airflow schedul
 
 	\end{rSubsection}
 
+	\vspace{1mm}
 %------------------------------------------------
 
 	\begin{rSubsection}{Neoway Business Solutions}{May 2016 - March 2019}{Software Developer}{Florianópolis, Brazil}
@@ -133,7 +152,6 @@ I also developed REST APIs to improve the communication with the devices, such a
 That Android applications were developed using some libs like RxAndroid, Retrofit, SqlBrite, Butterniffe, Dagger, Espresso and Robolectric.
 
 Although I am a software engineer some times it is necessary working as sysadmins doing tasks like Linux and network administration, web servers management (Apache and nginx), log analyse, and so on.
-
 
 	\end{rSubsection}
 
